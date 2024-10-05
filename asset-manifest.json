@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Snurflewomp/static/css/main.eaa5bd74.css",
-    "main.js": "/Snurflewomp/static/js/main.f0c29a4e.js",
-    "static/js/453.6b87a50a.chunk.js": "/Snurflewomp/static/js/453.6b87a50a.chunk.js",
-    "static/media/profile-icon.png": "/Snurflewomp/static/media/profile-icon.83a271dc08d1c063fb2e.png",
-    "static/media/site-icon.png": "/Snurflewomp/static/media/site-icon.5d883169c7aa13f9f6fb.png",
-    "static/media/arrow-left.png": "/Snurflewomp/static/media/arrow-left.c4204fa390f9fce9cfa0.png",
-    "static/media/arrow-right.png": "/Snurflewomp/static/media/arrow-right.52fa63ee8bed7f563686.png",
-    "static/media/wardrobe-icon.png": "/Snurflewomp/static/media/wardrobe-icon.b49fcfa59b2c8d3c2b6d.png",
-    "index.html": "/Snurflewomp/index.html",
-    "main.eaa5bd74.css.map": "/Snurflewomp/static/css/main.eaa5bd74.css.map",
-    "main.f0c29a4e.js.map": "/Snurflewomp/static/js/main.f0c29a4e.js.map",
-    "453.6b87a50a.chunk.js.map": "/Snurflewomp/static/js/453.6b87a50a.chunk.js.map"
+    "main.css": "/Snurflewomp/VirtualCloset/static/css/main.eaa5bd74.css",
+    "main.js": "/Snurflewomp/VirtualCloset/static/js/main.55084959.js",
+    "static/js/453.6b87a50a.chunk.js": "/Snurflewomp/VirtualCloset/static/js/453.6b87a50a.chunk.js",
+    "static/media/profile-icon.png": "/Snurflewomp/VirtualCloset/static/media/profile-icon.83a271dc08d1c063fb2e.png",
+    "static/media/site-icon.png": "/Snurflewomp/VirtualCloset/static/media/site-icon.5d883169c7aa13f9f6fb.png",
+    "static/media/arrow-left.png": "/Snurflewomp/VirtualCloset/static/media/arrow-left.c4204fa390f9fce9cfa0.png",
+    "static/media/arrow-right.png": "/Snurflewomp/VirtualCloset/static/media/arrow-right.52fa63ee8bed7f563686.png",
+    "static/media/wardrobe-icon.png": "/Snurflewomp/VirtualCloset/static/media/wardrobe-icon.b49fcfa59b2c8d3c2b6d.png",
+    "index.html": "/Snurflewomp/VirtualCloset/index.html",
+    "main.eaa5bd74.css.map": "/Snurflewomp/VirtualCloset/static/css/main.eaa5bd74.css.map",
+    "main.55084959.js.map": "/Snurflewomp/VirtualCloset/static/js/main.55084959.js.map",
+    "453.6b87a50a.chunk.js.map": "/Snurflewomp/VirtualCloset/static/js/453.6b87a50a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eaa5bd74.css",
-    "static/js/main.f0c29a4e.js"
+    "static/js/main.55084959.js"
   ]
 }
