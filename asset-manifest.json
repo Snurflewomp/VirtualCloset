@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/VirtualCloset/static/css/main.eaa5bd74.css",
+    "main.css": "/VirtualCloset/static/css/main.7f99acb6.css",
     "main.js": "/VirtualCloset/static/js/main.401f654b.js",
     "static/js/453.6b87a50a.chunk.js": "/VirtualCloset/static/js/453.6b87a50a.chunk.js",
     "static/media/profile-icon.png": "/VirtualCloset/static/media/profile-icon.83a271dc08d1c063fb2e.png",
@@ -9,12 +9,12 @@
     "static/media/arrow-right.png": "/VirtualCloset/static/media/arrow-right.52fa63ee8bed7f563686.png",
     "static/media/wardrobe-icon.png": "/VirtualCloset/static/media/wardrobe-icon.b49fcfa59b2c8d3c2b6d.png",
     "index.html": "/VirtualCloset/index.html",
-    "main.eaa5bd74.css.map": "/VirtualCloset/static/css/main.eaa5bd74.css.map",
+    "main.7f99acb6.css.map": "/VirtualCloset/static/css/main.7f99acb6.css.map",
     "main.401f654b.js.map": "/VirtualCloset/static/js/main.401f654b.js.map",
     "453.6b87a50a.chunk.js.map": "/VirtualCloset/static/js/453.6b87a50a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaa5bd74.css",
+    "static/css/main.7f99acb6.css",
     "static/js/main.401f654b.js"
   ]
 }
