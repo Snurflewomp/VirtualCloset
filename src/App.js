@@ -9,6 +9,7 @@ import profileIcon from './img/profile-icon.png';
 import arrowLeft from './img/arrow-left.png';
 import arrowRight from './img/arrow-right.png';
 import addIcon from './img/add-icon.png';
+import closeIcon from './img/close-icon.png';
 
 function App() {
   return (
@@ -145,32 +146,50 @@ function AddItemForm() {
   };
 
   const [tagContent, setTagContent] = useState('');
-  const [update, setUpdate] = useState(tagContent);
 
   const handleChange = (event) => {
     setTagContent(event.target.value);
   };
 
+  const [tags, setTags] = useState([]);
+
+  const loadTags = () => {
+    setTags([...tags, tagContent]);
+  }
+
   const handleClick = () => {
-    setUpdate(tagContent);
+    loadTags();
   };
+
+  const removeTag = (tagToRemove) => {
+    setTags((prevtag) => prevtag.filter((tag) => tag !== tagToRemove));
+  };
+
+  let tagElements = tags.map(function (tag) {
+    return <li className='itemTag' key={tag}>{tag}<img src={closeIcon} className='close-icon' onClick={() => removeTag(tag)} /></li>
+  });
 
   return (
     <>
       <h2 className='pageHeader'>Add Item</h2>
       <button onClick={() => navigate(-1)} className='backBtn button'>Back</button>
+      <button className='massUploadItemBtn button'>Mass Upload</button>
 
-      <div class='formContainer'>
+      <div className='formOuterFlexbox'>
 
-        <p id='filePreviewContainer'><img alt='file preview' id='imagePreview' src={image} /></p>
-        <button onClick={handleImageUploadClick} className='selectFileBtn'>Select Image</button>
-        <input ref={fileInputRef} type='file' onChange={onImageChange} hidden />
+        <div className='formContainer'>
 
+          <p id='filePreviewContainer'><img alt='file preview' id='imagePreview' src={image} /></p>
+          <button onClick={handleImageUploadClick} className='innerButton'>Select Image</button>
+          <input ref={fileInputRef} type='file' onChange={onImageChange} hidden />
 
-        <input type='text' className='tagSelector' onChange={handleChange} value={tagContent} placeholder='Enter tags' />
+          <input type='text' className='tagSelector' onChange={handleChange} value={tagContent} placeholder='Enter tags' />
 
-        <button onClick={handleClick} className='selectFileBtn'>Add Tag</button>
-        <p>{update}</p>
+          <button onClick={handleClick} className='innerButton'>Add Tag</button>
+          <ul className='tagList'>{tagElements}</ul>
+        </div>
+
+        <button className='formSubmitButton innerButton'>Add Item</button>
       </div>
     </>
   );
